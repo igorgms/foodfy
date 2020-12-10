@@ -1,7 +1,7 @@
 const modalOverlay = document.querySelector('.modal-overlay')
 const cards = document.querySelectorAll('.card')
 
-for(let card of cards){
+for (let card of cards) {
     card.addEventListener('click', function(){
         const imgId = card.getAttribute('id')
         const title = card.querySelector('h4').innerHTML
